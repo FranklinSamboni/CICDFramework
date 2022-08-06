@@ -12,6 +12,7 @@
 		2944E61A289DD380006C8B43 /* MyFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944E619289DD380006C8B43 /* MyFramework.swift */; };
 		2944E61C289DD3F3006C8B43 /* MyFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944E61B289DD3F3006C8B43 /* MyFrameworkTests.swift */; };
 		2944E620289DDC1E006C8B43 /* CICDFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2944E61F289DDC1E006C8B43 /* CICDFramework.podspec */; };
+		2944E655289DF729006C8B43 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2944E654289DF729006C8B43 /* Localizable.strings */; };
 		7064265B7C469856CC0F372B /* Pods_CICDFramework_CICDFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E41F4F519647A7E51B41D46 /* Pods_CICDFramework_CICDFrameworkTests.framework */; };
 		91D0292E09F46995A730F468 /* Pods_CICDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69CCEDC1E06AB8AF652908E /* Pods_CICDFramework.framework */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		2944E619289DD380006C8B43 /* MyFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFramework.swift; sourceTree = "<group>"; };
 		2944E61B289DD3F3006C8B43 /* MyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTests.swift; sourceTree = "<group>"; };
 		2944E61F289DDC1E006C8B43 /* CICDFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CICDFramework.podspec; sourceTree = "<group>"; };
+		2944E654289DF729006C8B43 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		3E41F4F519647A7E51B41D46 /* Pods_CICDFramework_CICDFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDFramework_CICDFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FCE4A15BCB5D22BB858DDB /* Pods-CICDFramework-CICDFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDFramework-CICDFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-CICDFramework-CICDFrameworkTests/Pods-CICDFramework-CICDFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A69CCEDC1E06AB8AF652908E /* Pods_CICDFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 				2944E602289DD371006C8B43 /* CICDFramework.h */,
 				2944E603289DD371006C8B43 /* Info.plist */,
 				2944E619289DD380006C8B43 /* MyFramework.swift */,
+				2944E654289DF729006C8B43 /* Localizable.strings */,
 			);
 			path = CICDFramework;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2944E620289DDC1E006C8B43 /* CICDFramework.podspec in Resources */,
+				2944E655289DF729006C8B43 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
