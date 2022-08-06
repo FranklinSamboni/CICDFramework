@@ -1,0 +1,6 @@
+framework module Pods_CICDFramework {
+  umbrella header "Pods-CICDFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
